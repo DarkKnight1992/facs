@@ -20,6 +20,7 @@ I saw that Ionic team is just messing around with the styles, and cusmoze them w
 7, post components, which anyway works in a life system also.
 8, scss parameters might not be involved. (you can deal with pure css, if you haven't that much styles)
 I would rather add the flexibility, instead of creating hundreds of parameters to a component. (which anyway slows down the angular - many times it's a problem, when you deploy your hibrid app to a mobile)
+9, components will be based on angular 5.
 
 ##### What flexible components mean?
 For example header/footer/card etc. is not the components which are really usefull, i would rather focus to create a flexible table. The only component which was working in ionic without hacking was the ion-grid.
