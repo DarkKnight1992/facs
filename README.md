@@ -45,7 +45,7 @@ With buttons it definitely works, with fancy "content" tag, it won't.
 1) Tab (wich will be a menu also, you can add/remove tabs dinamically by drag and drop - it will be a slide also - you can slide between tabs back and forth)
 2) Virtual scroll
 3) frame - you can position items around something
-4) popup (which will be a popover also, will be movable on the screen)
+4) popup (which will be a popover / loader also, will be movable on the screen)
 5) image uploader (it will be an editor also - rotate, scale etc.)
 6) calendar - (i have created a calendar component which i rewritten 3 times, but i found out the most efficient one on mobile - i haven't seen similar one. It's partially based on ionic component, which is not working under Mac OS - the aim is to recreate the ionic part in more simpler way)
 
