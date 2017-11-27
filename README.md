@@ -36,7 +36,7 @@ As ionic toggle was the only one which i was not able to fix for mac os, will be
 2) Instead of saving boolean value, it will save number.
 3) You can add more knobs, but there wouldn't be fancy ballons.
 (my experience is the most efficient way, if you place the current value above)
-4) Knobs will be svg, instead of some fancy "content", which not supported by different browsers. (my experience is that thesvg performs very well on mobile devices also) - you won't place hundreds of svg to the screen.
+4) Knobs will be svg, instead of some fancy "content", which are not supported by different browsers. (my experience is that thesvg performs very well on mobile devices also) - you won't place hundreds of svg to the screen.
 5) I was not able to figure out in the case of ionic toggle, why the box shadowing sometimes works sometimes not.
 With buttons it definitely works, with fancy "content" tag, it won't.
 6) Automatically resizes itself if it's necessary.
