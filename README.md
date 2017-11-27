@@ -41,9 +41,15 @@ As ionic toggle was the only one which i was not able to fix for mac os, will be
 With buttons it definitely works, with fancy "content" tag, it won't.
 6) Automatically resizes itself if it's necessary.
 
-I will create the Tab (wich will be a menu also, you can add/remove tabs dinamically by drag and drop - it will be a slide also - you can slide between tabs back and forth)/Virtual scroll/button frame/popup (which will be a popover also, will be movable on the screen)/image uploader (it will be an editor also - rotate, scale etc.) / calendar - (i have created a calendar component which i rewritten 3 times, but i found out the most efficient one on mobile - i haven't seen similar one - it's partially based on ionic component, which is not workingunder Mac OS - the aim is to recreate the ionic part in more simpler way)
+##### Expected components
+1) Tab (wich will be a menu also, you can add/remove tabs dinamically by drag and drop - it will be a slide also - you can slide between tabs back and forth)
+2) Virtual scroll
+3) frame - you can position items around something
+4) popup (which will be a popover also, will be movable on the screen)
+5) image uploader (it will be an editor also - rotate, scale etc.)
+6) calendar - (i have created a calendar component which i rewritten 3 times, but i found out the most efficient one on mobile - i haven't seen similar one. It's partially based on ionic component, which is not working under Mac OS - the aim is to recreate the ionic part in more simpler way)
 
-I have experienced in the case of ionic to open 3-4 popup at each other, mobile won't render correctly.
+I have experienced that in the case of ionic to open 3-4 popup at each other, mobile won't render correctly.
 Virtual scroll is too complex in ionic side
 
 I'm very confident to achieve my goals. In jquery time, i have recreated plugins which were 10 times faster, than the original one. I'm not confident that to use ionic component i can make that improvements.
