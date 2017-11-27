@@ -6,7 +6,7 @@ I'm not looking for contributors on this repository at the moment. (I make the t
 The aim of this repository not to recreate angular material or ionic, just to create some flexible angular components, which are just working on ios, safari, android, firefox and chrome. (IE won't be supported)
 
 ##### Reason
-Most of the framework has tons of components, thus it makes the component system quite complex.
+Most of the framework has tons of components, thus the component system is quite complex.
 
 Angular material has some basic, and they might be "high quality", but i had to use ionic because some components does not exist. Ionic has been created, when angular just started to come up, and whatever plugin i used, was very buggy.
 I saw that Ionic team is just messing around with the styles, and cusmoze them with every browser.
@@ -18,6 +18,8 @@ I saw that Ionic team is just messing around with the styles, and cusmoze them w
 5, components can be configured based on data coming from server. (you just need to implement the interface)
 6, create a component library instead of checking hundreds of node repositories. (my experience is, that many has got lots of bugs - many times i have recreated the functionality)
 7, post components, which anyway works in a life system also.
+8, scss parameters might not be involved. (you can deal with pure css, if you haven't that much styles)
+I would rather add the flexibility, instead of creating hundreds of parameters to a component. (which anyway slows down the angular - many times it's a problem, when you deploy your hibrid app to a mobile)
 
 ##### What flexible components mean?
 For example header/footer/card etc. is not the components which are really usefull, i would rather focus to create a flexible table. The only component which was working in ionic without hacking was the ion-grid.
@@ -38,7 +40,9 @@ As ionic toggle was the only one which i was not able to fix for mac os, will be
 With buttons it definitely works, with fancy "content" tag, it won't.
 6, Automatically resizes itself if it's necessary.
 
-I will create the Tab (wich will be a menu also, you can add/remove tabs dinamically by drag and drop)/Virtual scroll/button frame/popup (which will be a popover also, will be movable on the screen)/image uploader (it will be an editor also - rotate, scale etc.)
+I will create the Tab (wich will be a menu also, you can add/remove tabs dinamically by drag and drop - it will be a slide also - you can slide between tabs back and forth)/Virtual scroll/button frame/popup (which will be a popover also, will be movable on the screen)/image uploader (it will be an editor also - rotate, scale etc.) / calendar - (i have created a calendar component which i rewritten 3 times, but i found out the most efficient one on mobile - i haven't seen similar one - it's partially based on ionic component, which is not workingunder Mac OS - the aim is to recreate the ionic part in more simpler way)
 
 I have experienced in the case of ionic to open 3-4 popup at each other, mobile won't render correctly.
 Virtual scroll is too complex in ionic side
+
+I'm very confident to achieve my goals. In jquery time, i have recreated plugins which were 10 times faster, than the original one. I'm not confident that to use ionic component i can make that improvements.
