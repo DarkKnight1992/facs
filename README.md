@@ -1,5 +1,4 @@
-# facs
-free angular component solution
+# facs - free angular component solution
 
 I'm not looking for contributors on this repository at the moment. (I make the thorough design first)
 
