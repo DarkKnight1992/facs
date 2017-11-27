@@ -45,6 +45,7 @@ With buttons it definitely works, with fancy "content" tag, it won't.
 1) Tab (wich will be a menu also, you can add/remove tabs dinamically by drag and drop - it will be a slide also - you can slide between tabs back and forth - badge will be available)
 2) Virtual scroll - it will handle image lazy loading automatically, and can work with different heights of item.
 I'm pretty sure that i can produce a more faster (lag free on mobile devices) Virtual scroll than the ionic one.
+You can pass default image while the items are rendering.
 3) frame - you can position items around something, or just create a "fab" icon. ( for example Ionic hasn't any style to position fab buttons vertically - you need to manipulate to add a new button at the top of the other one)
 Why the frame is not a table? There can be holes in it, and it should be transparent also. Layers below should remain clickable. I have also experienced, that i was able to place more items into the screen using frame, than create a vertical "item" list. I had 20-30% more room. Don't be confused with the HTML frames, as it's a totally different thing! (my frame is div based)
 4) popup (which will be a popover / loader also, will be movable on the screen)
