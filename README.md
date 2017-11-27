@@ -50,7 +50,7 @@ You can pass default image while the items are rendering, as a parameter.
 Why the frame is not a table? There can be holes in it, and it should be transparent also. Layers below should remain clickable. I have also experienced, that i was able to place more items into the screen using frame, than create a vertical "item" list. I had 20-30% more room. Don't be confused with the HTML frames, as it's a totally different thing! (my frame is div based)
 4) popup (which will be a popover / loader also, will be movable on the screen)
 5) image uploader (it will be an editor also - rotate, scale etc.)
-6) calendar - (i have created a calendar component which i rewritten 3 times, but i found out the most efficient one on mobile - i haven't seen similar one. It's partially based on ionic component, which is not working under Mac OS - the aim is to recreate the ionic part in more simpler way)
+6) calendar - (i have created a calendar component which i have rewritten 3 times, but i found out the most efficient one on mobile - i haven't seen similar one. It's partially based on ionic components, which is not working under Mac OS - the aim is to recreate the ionic part in more simpler way)
 
 I have experienced that in the case of ionic to open 3-4 popup at each other, mobile won't render correctly.
 Virtual scroll is too complex in ionic side
