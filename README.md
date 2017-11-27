@@ -27,7 +27,7 @@ For example header/footer/card etc. is not the components which are really usefu
 
 Many times you have customized components:
 
-I would focus on the ease of the positioning. If it's easy and works as expected, than you can create the "item/header/footer". (with a div table you can create many of them)
+I would focus on the ease of the positioning. If it's easy and works as expected, you can create the "item/header/footer". (with a div table you can create many of them)
 
 As ionic toggle was the only one which i was not able to fix for mac os, will be the first one.
 
