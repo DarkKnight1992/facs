@@ -14,7 +14,7 @@ I saw that Ionic team is just messing around with the styles, and customize them
 1) To make components which resizes themself automatically, when orientation or window size has been changed.
 2) Just use styles which has been handled in the same ways in every browser, instead of customizing for different browser.
 3) Create flexible components, instead of creating hundreds.
-4) create components which can be very easily modify. (Ionic tab has 9-10 constructor parameter for example, which is very bad)
+4) create components which can be very easily modified. (Ionic tab has 9-10 constructor parameter for example, which is very bad)
 5) components can be configured based on data coming from server. (you just need to implement the interface)
 6) create a component library instead of checking hundreds of node repositories. (my experience is, that many has got lots of bugs - many times i have recreated the functionality)
 7) post components, which anyway works in a life system also.
