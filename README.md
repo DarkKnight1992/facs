@@ -32,7 +32,7 @@ I would focus on the ease of the positioning. If it's easy and works as expected
 As ionic toggle was the only one which i was not able to fix for mac os, will be the first one.
 
 ##### Toggle features:
-1) You can add one title, two title (range for example) and more title.
+1) You can add one title, two titles (range for example) and more titles.
 2) Instead of saving boolean value, it will save number.
 3) You can add more knobs, but there wouldn't be fancy ballons.
 (my experience is the most efficient way, if you place the current value above)
