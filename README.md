@@ -18,8 +18,7 @@ I saw that Ionic team is just messing around with the styles, and customize them
 5) components can be configured based on data coming from server. (you just need to implement the interface)
 6) create a component library instead of checking hundreds of node repositories. (my experience is, that many has got lots of bugs - many times i have recreated the functionality)
 7) post components, which anyway works in a life system also.
-8) scss parameters might not be involved. (you can deal with pure css, if you haven't that much styles)
-I would rather add the flexibility, instead of creating hundreds of parameters to a component. (which anyway slows down the angular - many times it's a problem, when you deploy your hibrid app to a mobile)
+8) reduce the number of scss parameters
 9) components will be based on angular 5.
 
 ##### What flexible components mean?
