@@ -51,7 +51,7 @@ Why the frame is not a table? There can be holes in it, and it should be transpa
 5) image uploader (it will be an editor also - rotate, scale etc.)
 6) calendar - (i have created a calendar component which i have rewritten 3 times, but i found out the most efficient one on mobile - i haven't seen similar one. It's partially based on ionic components, which is not working under Mac OS - the aim is to recreate the ionic part in more simpler way)
 
-I have experienced that in the case of ionic to open 3-4 popup at each other, mobile won't render correctly.
-Virtual scroll is too complex in ionic side
+I have experienced that in the case of ionic to open 3-4 popup at the top of each other, mobile won't render correctly.
+Ionic Virtual scroll is too complex on code level
 
 I'm very confident that i'm able to achieve these goals. When jquery was the popular framework, i have recreated plugins which were 10 times faster, than the original one. I'm not confident that to use ionic component i can make that kind of improvements. (in the last year, i would have rewritten all the ionic components instead of using it - i came to a position that i just had to fix and make workarounds on all the styles related to ionic components - my intention was not to customize, just make it working, without erroneous extra paddings, margins etc., and it's swallowed my development time to let me focus on my real tasks)
