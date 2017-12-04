@@ -8,7 +8,7 @@ The aim of this repository not to recreate angular material or ionic, just to cr
 ##### Reason
 Most of the framework has tons of components, thus the component system is quite complex.
 
-Angular material might have some basic and "high quality" ones, but i had to use ionic because some components does not exist. Ionic has been created, when angular just started to come up, and whatever plugin i used, was very buggy.
+Angular material might have some basic and "high quality" ones, but i had to use ionic because some component does not exist. Ionic has been created, when angular just started to come up, and whatever plugin i used, was very buggy.
 I saw that Ionic team is just messing around with the styles, and customize them for every browser.
 
 1) To make components which resizes themself automatically, when orientation or window size has been changed.
