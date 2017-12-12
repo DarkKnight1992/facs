@@ -22,7 +22,7 @@ what ionic team used so frequently.
 7) post components, which anyway works in a live system also.
 8) reduce the number of scss parameters
 9) components will be based on angular 5.
-10) Eliminate the need of the chaining event emitters. (sub components inside a container might need to talk outside)
+10) Eliminate the need of chaining event emitters. (sub components inside a container might need to talk outside)
 
 ##### What flexible components mean?
 For example header/footer/card etc. is not the components which are really usefull, i would rather focus to create a flexible table. The only component which was working in ionic without hacking was the ion-grid.
