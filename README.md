@@ -45,7 +45,7 @@ With buttons it definitely works, with fancy "content" tag, it won't.
 6) Automatically resizes itself if it's necessary.
 
 ##### Expected components
-1) Tab - it will be a container. Buttons will be outside as a menu items. (there can be button rows vertically and horisontally, but the items can be  grabbed as a structural directive)
+1) Tab - it will be a container only (in addition very likely can parse url later on for deep linking). Buttons will be outside as a menu items. (there can be button rows vertically and horisontally, but the items can be  grabbed as a structural directive)
 2) Virtual scroll - it will handle image lazy loading automatically, and can work with different heights of item.
 I'm pretty sure that i can produce a more faster (lag free on mobile devices) Virtual scroll than the ionic one.
 You can pass default image while the items are rendering, as an argument.
