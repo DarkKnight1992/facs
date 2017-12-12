@@ -19,9 +19,10 @@ what ionic team used so frequently.
 4) create components which can be very easily modified. (for example ionic components have got 9-10 public method parameters usually, which is very bad, and blocks me to use it - it should be private orpublic with less parameters)
 5) components can be configured based on data coming from server. (you just need to implement the interface)
 6) create a component library instead of checking hundreds of node repositories. (my experience is, that many has got lots of bugs - many times i have recreated the functionality)
-7) post components, which anyway works in a life system also.
+7) post components, which anyway works in a live system also.
 8) reduce the number of scss parameters
 9) components will be based on angular 5.
+10) Eliminate the need of the chaining event emitters. (sub components inside a container might need to talk outside)
 
 ##### What flexible components mean?
 For example header/footer/card etc. is not the components which are really usefull, i would rather focus to create a flexible table. The only component which was working in ionic without hacking was the ion-grid.
