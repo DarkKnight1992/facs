@@ -1,6 +1,7 @@
 # facs - free angular component solution
 
 I'm not looking for contributors on this repository at the moment. (I make the thorough design first)
+The first commits can be expected from end of January.
 
 ##### Purpose
 The aim of this repository not to recreate angular material or ionic, just to create some flexible angular components, which are just working on ios, safari, android, firefox and chrome. (IE won't be supported)
