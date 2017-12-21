@@ -45,7 +45,7 @@ With buttons it definitely works, with fancy "content" tag, it won't.
 6) Automatically resizes itself if it's necessary.
 
 ##### Expected components
-1) Tab - it will be a container only (in addition very likely can parse url later on similar to deep linking). Buttons will be outside as a menu items. (there can be button rows vertically and horisontally, but the items can be  grabbed as a structural directive - no hard coded images inside the component) - popover is a special tab with positioning capability.
+1) Tab - it will be a container only (in addition very likely can parse url later on similar to deep linking). Buttons will be outside as a menu items. (there can be button rows vertically and horisontally, but the items can be  grabbed as a structural directive - no hard coded images inside the component) - popover is a special tab with positioning capability, there is also dockable features. (it does make sense only to split up the screen horisontally by two vertically by three to dock some sort of tabs)
 2) Virtual scroll - it will handle image lazy loading automatically, and can work with different heights of item.
 I'm pretty sure that i can produce a more faster (lag free on mobile devices) Virtual scroll than the ionic one.
 You can pass default image while the items are rendering, as an argument.
@@ -58,3 +58,7 @@ I have experienced that in the case of ionic to open 3-4 popup at the top of eac
 Ionic Virtual scroll is too complex on code level
 
 I'm very confident that i'm able to achieve these goals. When jquery was the popular framework, i have recreated plugins which were 10 times faster, than the original one. I'm not confident that to use ionic component i can make that kind of improvements. (in the last year, i would have rewritten all the ionic components instead of using it - i came to a position that i just had to fix and make workarounds on all the styles related to ionic components - my intention was not to customize, just make it working, without erroneous extra paddings, margins etc., and it's swallowed my development time to let me focus on my real tasks)
+
+I already recreated some parts of the RXJS, to be able to send messages directly to UI interface or interfaces. (broadcast)
+
+Whatever i share here will be inspirational, but won't be production ready as i have no time to document and make more flexible than what i needed in my own project.
