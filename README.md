@@ -34,15 +34,12 @@ I would focus on the ease of the positioning. If it's easy and works as expected
 
 As ionic toggle was the only one which i was not able to fix for mac os, will be the first one.
 
-##### Toggle features (I have recreated the ionic one, i might not finish this list at the moment)
-1) You can add one title, two titles (range for example) and more titles.
-2) Instead of saving boolean value, it will save number.
-3) You can add more knobs, but there wouldn't be fancy ballons.
+##### Toggle features (I have recreated the ionic one)
+1) Instead of saving boolean value, it will save number.
+2) You can add at least 2 knobs, but there wouldn't be fancy ballons.
 (my experience is the most efficient way, if you place the current value above)
-4) Knobs will be svg, instead of some fancy "content", which are not supported by different browsers. (my experience is that the svg performs very well on mobile devices also) - you won't place hundreds of svg to the screen.
-5) I was not able to figure out in the case of ionic toggle, why the box shadowing sometimes works sometimes not.
-With buttons it definitely works, with fancy "content" tag, it won't.
-6) Automatically resizes itself if it's necessary.
+3) Knobs will be div with border-radius: 50%
+4) Automatically resizes itself if it's necessary.
 
 ##### Expected components
 1) Tab - it will be a container only (in addition very likely can parse url later on similar to deep linking). Buttons will be outside as a menu items. (there can be button rows vertically and horizontally, but the items can be  grabbed as a structural directive - no hard coded images inside the component) - popover is a special tab with positioning capability, there is also dockable features. (it does make sense only to split up the screen horizontally by two vertically by three to dock some sort of tabs)
