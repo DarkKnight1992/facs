@@ -4,9 +4,7 @@ I'm not looking for contributors on this repository at the moment. (I make the t
 The first commits can be expected from end of January.
 
 ##### Purpose
-The aim of this repository not to recreate angular material or ionic, just to create some flexible components, which are just working on ios, safari, android, firefox and chrome. (IE won't be supported)
-
-As i have wasted trendemous time digging into the angular and react code, i'm questining basic things:
+As i have wasted trendemous time digging into the angular and react code base trying to figure out bugs, i'm questining basic things:
 1, Is it feasible to introduce java like dependency injection in javascript? To make a code testable in java most of the time it's very hard work to inject everything. Most of the development time has been consumed. In very large system many times it was not economical to mock everything. I think group dependency injection would be better. (create a global variable which is some sort of manager - and with the same name either you populate the real object or the virtual object)
 So instead of injecting everything in the constructor, send messages to the global manager at the beggingin of the test.
 2, Do we need template system in javascript. (so some parsers, which anyway the responsibility of the browser)
