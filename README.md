@@ -5,9 +5,9 @@ The first commits can be expected from end of January.
 
 ##### Purpose
 As i have wasted trendemous time digging into the angular and react code base trying to figure out bugs, i'm questining basic things:
-1, Is it feasible to introduce java like dependency injection in javascript? To make a code testable in java most of the time it's very hard work to inject everything. Most of the development time has been consumed. In very large system many times it was not economical to mock everything. I think group dependency injection would be better. (create a global variable which is some sort of manager - and with the same name either you populate the real object or the virtual object)
+1) Is it feasible to introduce java like dependency injection in javascript? To make a code testable in java most of the time it's very hard work to inject everything. Most of the development time has been consumed. In very large system many times it was not economical to mock everything. I think group dependency injection would be better. (create a global variable which is some sort of manager - and with the same name either you populate the real object or the virtual object)
 So instead of injecting everything in the constructor, send messages to the global manager at the beggingin of the test.
-2, Do we need template system in javascript. (so some parsers, which anyway the responsibility of the browser)
+2) Do we need template system in javascript. (so some parsers, which anyway the responsibility of the browser)
 The fact is it's hiding the javascript and adds more complexity of the page, like in the case of angular, but i think react or vue is not different. Can we do a Virtual Dom without introducing a new template language, which is not just hiding javascript, it takes time to create. I don't think so it's necessarily.
 
 The abovementioned problem can be easily solved within a day, instead of team work which last for month, and needs so many performance improvements. In Angular the end result was to profile javascript so frequently that i was not able to focus on my real task.
