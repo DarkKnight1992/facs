@@ -6,6 +6,18 @@ The first commits can be expected from end of January.
 ##### Purpose
 The aim of this repository not to recreate angular material or ionic, just to create some flexible angular components, which are just working on ios, safari, android, firefox and chrome. (IE won't be supported)
 
+As i have wasted trendemous time digging into the angular and react code, i'm questining basic things:
+1, Is it feasible to introduce java like dependency injection in javascript? To make a code testable in java most of the time it's very hard work to inject everything. Most of the development time has been consumed. In very large system many times it was not economical to mock everything. I think group dependency injection would be better. (create a global variable which is some sort of manager - and with the same name either you populate the real object or the virtual object)
+So instead of injecting everything in the constructor, send messages to the global manager at the beggingin of the test.
+2, Do we need template system in javascript. (so some parsers, which anyway the responsibility of the browser)
+The fact is it's hiding the javascript and adds more complexity of the page, like in the case of angular, but i think react or vue is not different. Can we do a Virtual Dom without introducing a new template language, which is not just hiding javascript, it takes time to create. I don't think so it's necessarily.
+
+The abovementioned problem can be easily solved within a day, instead of team work which last for month, and needs so many performance improvements. In Angular the end result was to profile javascript so frequently that i was not able to focus on my real task.
+
+Are these frameworks really useful? I'm not sure, as many times the size just growing, too many bloatware in it, and does not answer to some basic needs. The configuration cost can be trendemous, and if something is buggy you need to wait, as it's hard to fix.
+
+The only principle i think which does matter, don't manipulate dom directly! I'm using typescript, and define some decorators which is similar how spring is working, but it won't be superflouos, i also attach the UI library, which are available separately in many frameworks. I'm not going to recreate html 5, i just want to achieve some UI, which is hard to create and that's all. I might use deep linking and define some sort of backend to be able to open the page in the previous state, when the user is going there, with all the modification what the page has. (the service worker caching is good, when you are offline, but when you have dynamic data to be updated, it's not the right answer for the problem)
+
 ##### Reason
 Most of the framework has tons of components, thus the component system is quite complex.
 
