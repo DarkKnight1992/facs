@@ -12,7 +12,7 @@ The fact is it's hiding the javascript and adds more complexity of the page, lik
 
 The abovementioned problem can be easily solved within a day, instead of team work which last for months, and needs so many performance improvements. In Angular the end result was to profile javascript so frequently that i was not able to focus on my real task. It's not a fun  to work with Angular at all, if it stays, i wouldn't like to be a web developer.
 
-Are these frameworks really useful? I'm not sure, as many times the size just growing, too many bloatware in it, and does not answer to some basic needs. The configuration cost can be trendemous, and if something is buggy you need to wait, as it's hard to fix.
+Are these frameworks really useful? I'm not sure, as many times the size just growing, too many bloatware in it, and does not respond to some basic needs. The configuration cost can be trendemous, and if something is buggy you need to wait, as it's hard to fix.
 
 The only principle i think which does matter, don't manipulate dom directly! I'm using typescript, and define some decorators which is similar how spring is working, but it won't be superflouos, i also attach the UI library, which are available separately in many frameworks. I'm not going to recreate html 5, i just want to achieve some UI, which is hard to create and that's all. I might use deep linking and define some sort of backend to be able to open the page in the previous state, when the user is going there, with all the modification what the page has. (the service worker caching is good, when you are offline, but when you have dynamic data to be updated, it's not the right answer for the problem)
 
