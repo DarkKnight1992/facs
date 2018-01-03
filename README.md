@@ -1,4 +1,5 @@
-# facs - free angular component solution - (the name will be amended as it won't be angular anymore, you can read the reasons why)
+# facs - free angular component solution
+##### (the name will be amended as it won't be angular anymore, you can read the reasons why)
 
 I'm not looking for contributors on this repository at the moment. (I make the thorough design first)
 The first commits can be expected from end of January.
