@@ -38,7 +38,7 @@ I saw that Ionic team is just messing around with the styles, and customize them
 6) create a component library instead of checking hundreds of node repositories. (my experience is, that many has got lots of bugs - many times i have recreated the functionality)
 7) post components, which anyway works in a live system also.
 8) reduce the number of scss parameters
-9) components will be based on angular 5.
+9) components will be based on angular 5 at the moment, but i might create my own version of virtual dom system learning from facebook react. (also designed that part)
 10) Eliminate the need of chaining event emitters. (sub components inside a container might need to talk outside)
 
 ##### What flexible components mean?
