@@ -20,7 +20,7 @@ I'm using typescript, and define some decorators which is similar how spring is 
 
 Unfortunatelly you cannot cherry pick from the different javacript framework, so i have decided to cherry pick some advantages, and principles, which does not harm the productiveness in practice. (my components laso appears on my personal live system, so i need to make sure that it's bug-free)
 
-The big advantage of cherry picking that at the end of the day, you have the ui library, but your site is not growing too much. At the moment my unzipped codebase is about 120KB in typescript. (it contains already many things, and has got far better features than the ionic itself, and the css itself is very lightweigtht - at the moment there is no scss templating, as i have no time for it) It does not use hammerjs also, as i found it buggy after the pointer changes- (new feature in modern browsers, which is responsoible tohandle mouse / pen and touch event only with one code)
+The big advantage of cherry picking that at the end of the day, you have the ui library, but your site is not growing too much. At the moment my unzipped codebase is about 120KB in typescript. (it contains already many things, and has got far better feature set than the ionic itself, and the css itself is very lightweigtht - at the moment there is no scss templating, as i have no time for it) It does not use hammerjs also, as i found it buggy after the pointer changes- (new feature in modern browsers, which is responsoible tohandle mouse / pen and touch event only with one code)
 
 My gib worry at the moment, if i'm shring this one year work, my project can be easily reproduced within a week.:(
 
