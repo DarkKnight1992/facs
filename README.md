@@ -10,7 +10,7 @@ So instead of injecting everything in the constructor, send messages to the glob
 2) Do we need template system in javascript. (so some sort of html like parsers, which anyway the responsibility of the browser)
 The fact is it's hiding the javascript and adds more complexity of the page, like in the case of angular, but i think react or vue is not different. We can do a Virtual Dom without introducing a new template language, thus it is not just hiding javascript logic and possible bugs.
 
-The abovementioned problem can be easily solved within a day, instead of team work which last for months, and needs so many performance improvements. In Angular the end result was to profile javascript so frequently that i was not able to focus on my real task. It's not a fun  to work with Angular at all, if it stays, i wouldn't like to be a web developer.
+The abovementioned problem can be easily solved within a week, instead of team work which last for months, and needs so many performance improvements. In Angular the end result was to profile javascript so frequently that i was not able to focus on my real task. It's not a fun  to work with Angular at all, if it stays, i wouldn't like to be a web developer.
 
 Are these frameworks really useful? I'm not sure, as many times the size just growing, too many bloatware in it, and does not respond to some basic needs. The configuration cost can be trendemous, and if something is buggy you need to wait, as it's hard to fix.
 
