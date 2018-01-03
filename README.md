@@ -30,7 +30,7 @@ Most of the framework has tons of components, thus the component system is quite
 Angular material might have some basic and "high quality" ones, but i had to use ionic because some component does not exist. Ionic has been created, when angular just started to come up, and whatever plugin i used, was very buggy.
 I saw that Ionic team is just messing around with the styles, and customize them for every browser.
 
-1) To make components which resizes themself automatically, when orientation or window size has been changed.
+1) To make components which resizes themself automatically, when orientation or window size has been changed. (ionic didn't implement that part - look at popups at least while rotating :))
 2) Just use styles which has been handled in the same ways in every browser, instead of customizing for different browser.
 3) Create flexible components, instead of creating hundreds.
 4) create components which can be very easily modified. (for example ionic components have got 9-10 public method parameters usually, which is very bad, and blocks me to use it - it should be private orpublic with less parameters)
